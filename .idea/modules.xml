@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AltimerikPrj.iml" filepath="$PROJECT_DIR$/AltimerikPrj.iml" group="AltimerikPrj" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AltimerikPrj/app" />
+    </modules>
+  </component>
+</project>

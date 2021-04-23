@@ -28,7 +28,7 @@ public class DisplayNewsActivity extends Activity {
         Bundle bundle = this.getIntent().getExtras();
         position = bundle.getInt("POSITION");
         recievedNewsURL = bundle.getString("NEWSURL");
-        webView = (WebView) findViewById(R.id.webView_news);
+        webView = findViewById(R.id.webView_news);
         webView.loadUrl(recievedNewsURL);
         myWebClient webViewClient = new myWebClient(this, recievedNewsURL);
         webView.setWebViewClient(webViewClient);
